@@ -1,0 +1,25 @@
+Accuracy : 0.5000 (50.00%)
+Model    : TF-IDF (1-2 grams) + Logistic Regression
+Intents  : 12
+
+==================================================
+Classification Report
+==================================================
+              precision    recall  f1-score   support
+
+       about       0.00      0.00      0.00         1
+         age       0.00      0.00      0.00         1
+  compliment       1.00      1.00      1.00         2
+     contact       1.00      0.50      0.67         2
+     goodbye       0.40      1.00      0.57         2
+    greeting       1.00      0.50      0.67         2
+        help       1.00      1.00      1.00         2
+       hours       1.00      1.00      1.00         1
+        joke       0.00      0.00      0.00         1
+        name       0.00      0.00      0.00         1
+      thanks       0.00      0.00      0.00         2
+     weather       0.00      0.00      0.00         1
+
+    accuracy                           0.50        18
+   macro avg       0.45      0.42      0.41        18
+weighted avg       0.54      0.50      0.49        18

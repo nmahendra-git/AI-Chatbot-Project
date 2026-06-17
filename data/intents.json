@@ -1,0 +1,158 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good evening",
+        "Howdy", "What's up", "Greetings", "Hi there", "Hello there"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! I'm here to help. What do you need?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "See ya", "Take care",
+        "I'm leaving", "Talk to you later", "That's all", "Exit", "Quit"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care.",
+        "Bye! Feel free to come back anytime."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "That's helpful", "Thanks a lot",
+        "Many thanks", "Appreciate it", "Thank you so much", "Cheers"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Let me know if you need anything else."
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "What are you?", "Who are you?", "Tell me about yourself",
+        "What can you do?", "What is this chatbot?", "Are you a bot?",
+        "Are you human?", "What do you do?"
+      ],
+      "responses": [
+        "I'm an AI-powered chatbot built with NLP and Flask. I can answer your questions and assist with various tasks!",
+        "I'm a chatbot trained to understand your intent and respond helpfully. Ask me anything!",
+        "I'm an intelligent assistant powered by machine learning. How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help", "I need help", "Can you help me?", "Support",
+        "Assist me", "What should I do?", "I'm stuck", "Guide me"
+      ],
+      "responses": [
+        "Sure! I'm here to help. Please tell me what you need assistance with.",
+        "Of course! What do you need help with?",
+        "I'm happy to assist. What's the problem you're facing?"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your hours?", "When are you open?", "Business hours",
+        "Working hours", "Are you available 24/7?", "What time do you close?"
+      ],
+      "responses": [
+        "I'm a chatbot, so I'm available 24/7! Ask me anything, anytime.",
+        "I never sleep! I'm here for you around the clock.",
+        "As an AI assistant, I'm always online and ready to help!"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "Contact", "How do I contact you?", "Email", "Phone number",
+        "Reach out", "How to get in touch?", "Customer support", "Talk to human"
+      ],
+      "responses": [
+        "You can reach us at support@example.com or call +1-800-123-4567.",
+        "For human support, email us at support@example.com and we'll get back to you within 24 hours.",
+        "Contact our team at support@example.com. We're happy to help!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke", "Make me laugh", "Say something funny",
+        "Joke", "Funny", "Got any jokes?", "Humor me"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything! 😄",
+        "Why did the chatbot go to school? To improve its language skills! 🤖",
+        "What do you call a fish without eyes? A fsh! 🐟"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather?", "Weather today", "Is it going to rain?",
+        "Temperature outside", "Weather forecast", "Should I bring an umbrella?"
+      ],
+      "responses": [
+        "I don't have real-time weather access, but you can check weather.com or your local weather app for current conditions!",
+        "For live weather updates, try searching Google or using a weather app on your phone.",
+        "I can't check live weather right now, but weather.com and AccuWeather are great resources!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What's your name?", "What should I call you?", "Do you have a name?",
+        "Who am I talking to?", "Your name", "What are you called?"
+      ],
+      "responses": [
+        "I'm ChatBot, your friendly AI assistant!",
+        "You can call me ChatBot. I'm here to help!",
+        "My name is ChatBot. Nice to meet you!"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?", "What's your age?", "When were you created?",
+        "How long have you existed?", "Are you new?"
+      ],
+      "responses": [
+        "I was recently created! Age doesn't quite apply to AI, but I'm always learning.",
+        "I'm as young as the latest training data! Perpetually fresh and ready to help.",
+        "I don't age like humans do, but I'm constantly being improved!"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "You're great", "You're amazing", "Good job", "Well done",
+        "You're helpful", "I love you", "You're smart", "Awesome bot"
+      ],
+      "responses": [
+        "Thank you so much! That really means a lot to me. 😊",
+        "Aw, you're too kind! I'm just doing my best to help.",
+        "That's so sweet! I'm happy I could assist you well."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm not sure I understand. Could you rephrase that?",
+        "Hmm, I didn't quite catch that. Can you try asking differently?",
+        "I don't have an answer for that yet, but I'm always learning!"
+      ]
+    }
+  ]
+}
